@@ -1,0 +1,93 @@
+.home-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 70vh;
+}
+
+.home-card {
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+padding: 2rem;
+width: 100%;
+max-width: 500px;
+text-align: center;
+}
+
+.home-card h2 {
+margin-top: 0;
+color: #2c3e50;
+}
+
+.home-card p {
+color: #7f8c8d;
+margin-bottom: 2rem;
+}
+
+.create-button {
+background-color: #3498db;
+color: white;
+border: none;
+border-radius: 4px;
+padding: 0.8rem 1.6rem;
+font-size: 1rem;
+cursor: pointer;
+width: 100%;
+transition: background-color 0.3s;
+}
+
+.create-button:hover {
+background-color: #2980b9;
+}
+
+.divider {
+display: flex;
+align-items: center;
+margin: 2rem 0;
+}
+
+.divider:before,
+.divider:after {
+content: "";
+flex: 1;
+height: 1px;
+background-color: #e0e0e0;
+}
+
+.divider span {
+padding: 0 1rem;
+color: #95a5a6;
+font-size: 0.9rem;
+}
+
+.room-input {
+width: 100%;
+padding: 0.8rem;
+font-size: 1rem;
+border: 1px solid #e0e0e0;
+border-radius: 4px;
+margin-bottom: 1rem;
+box-sizing: border-box;
+}
+
+.join-button {
+background-color: #2ecc71;
+color: white;
+border: none;
+border-radius: 4px;
+padding: 0.8rem 1.6rem;
+font-size: 1rem;
+cursor: pointer;
+width: 100%;
+transition: background-color 0.3s;
+}
+
+.join-button:hover {
+background-color: #27ae60;
+}
+
+.join-button:disabled {
+background-color: #95a5a6;
+cursor: not-allowed;
+}
